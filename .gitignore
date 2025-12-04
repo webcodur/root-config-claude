@@ -1,0 +1,40 @@
+# ===========================================
+# Claude Code - .gitignore
+# ===========================================
+
+# 자격 증명 및 민감 정보
+.credentials.json
+*.key
+*.pem
+*.secret
+
+# 로컬 설정
+.claude/
+settings.local.json
+
+# 세션/캐시 데이터
+history.jsonl
+statsig/
+
+# IDE 락 파일
+ide/*.lock
+
+# 디버그 로그
+debug/
+
+# 임시 파일
+shell-snapshots/
+file-history/
+
+# 프로젝트별 대화 기록 (용량이 크므로 제외 권장)
+projects/
+
+# TODO 상태 파일
+todos/
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# 플랜 파일 (선택적 - 필요시 주석 해제)
+# plans/
